@@ -1,5 +1,4 @@
 #include<iostream>
-#include<iomanip>
 using namespace std;
 void printpercentage(int number);
 main()
@@ -45,11 +44,11 @@ void printpercentage(int number)
             p5 = (n5 * 100) / n;
          }
       }
-      cout<< fixed <<setprecision(2) <<p1  <<"%" <<endl;
-      cout<< fixed <<setprecision(2) <<p2  <<"%" <<endl;
-      cout<< fixed <<setprecision(2) <<p3  <<"%"<<endl;
-      cout<< fixed <<setprecision(2) <<p4  <<"%"<<endl;
-      cout<< fixed <<setprecision(2) <<p5  <<"%"<<endl;
+      cout<<p1  <<"%" <<endl;
+      cout<<p2  <<"%" <<endl;
+      cout<<p3  <<"%"<<endl;
+      cout<<p4  <<"%"<<endl;
+      cout<<p5  <<"%"<<endl;
  }
 
 
